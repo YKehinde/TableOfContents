@@ -5,31 +5,3 @@ Table of contents snippet for sublime text
 
 
 Small snippet I made for table of contents for css files to make your file readable and neat for other developers. And yourself.
-
-<snippet>
-	<content><![CDATA[/* ==========================================================================
-
-   Project         :  ${1:project name}
-   Project URL     :  http://${2:site-name}.${3:com}
-
-   Author          :  Yemi Kehinde
-   Website         :  http://www.black-crayon.co.uk
-   github Url      :  https://github.com/YKehinde
-   github Url      :  https://bitbucket.org/oakehinde
-
-   Stylesheet name :  ${4:Section} styles
-
-===================================================================================================
-
-Table of Contents
-
-   *  ${5:Item 1}
-
-========================================================================== */
-$0
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>toc</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
